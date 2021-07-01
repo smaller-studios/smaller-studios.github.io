@@ -1,0 +1,191 @@
+.lhsTPw {
+  background: rgba(45, 48, 53, 0.467) none repeat scroll 0% 0%;
+  border-bottom: 3px solid rgb(45, 48, 53);
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.eMVMgU {
+  max-width: 1160px;
+  margin: 0px auto;
+  padding-top: 144px;
+  padding-bottom: 232px;
+}
+inline @only screen and (max-width: 1384px) {
+  .eMVMgU {
+    max-width: 960px;
+  }
+}
+.fQLdlk {
+  font-size: 48px;
+  margin: 0px 0px 132px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Helvetica Neue LT W05_75 Bold", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Open Sans", sans-serif;
+}
+inline @only screen and (max-width: 1100px) {
+  .eKWJqa {
+    display: none;
+  }
+}
+inline @only screen and (max-width: 1200px) {
+  .eKWJqa img {
+    height: 640px;
+  }
+}
+inline @only screen and (max-width: 1384px) {
+  .eKWJqa img {
+    height: 700px;
+  }
+}
+.eKWJqa img {
+  width: auto;
+  height: 850px;
+  float: right;
+  position: absolute;
+  right: -200px;
+  z-index: 0;
+}
+inline @only screen and (max-width: 1100px){
+.leturW {
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+}
+.leturW {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+}
+inline @only screen and (max-width: 680px){
+.gBchxQ {
+    display: none;
+}
+}
+.gBchxQ {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50% / 3%;
+    width: 24px;
+    margin-right: 60px;
+    overflow: hidden;
+}
+.gBchxQ .b1 {
+    background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(125, 78, 219, 0.498) 0%, rgba(187, 78, 219, 0.498) 100%) repeat scroll 0% 0%;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+}
+.gBchxQ .bar {
+    height: 206px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+}
+.gBchxQ .b1 .number {
+    background: rgb(187, 78, 219) none repeat scroll 0% 0%;
+}
+.gBchxQ .number {
+    border-radius: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-family: "Helvetica Neue LT W05 85 Heavy", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+}
+.gBchxQ .b2 {
+    background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(78, 110, 219, 0.498) 0%, rgba(125, 78, 219, 0.498) 100%) repeat scroll 0% 0%;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+.gBchxQ .b2 .number {
+    background: rgb(115, 83, 241) none repeat scroll 0% 0%;
+}
+.gBchxQ .b3 {
+    background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgba(78, 218, 219, 0.498) 0%, rgba(78, 110, 219, 0.498) 100%) repeat scroll 0% 0%;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+}
+.gBchxQ .b3 .number {
+    background: rgb(78, 218, 219) none repeat scroll 0% 0%;
+}
+
+.hfeUes:not(:last-child) {
+    margin-bottom: 170px;
+}
+inline @only screen and (max-width: 680px){
+.hfeUes {
+    display: block;
+    height: initial;
+}}
+.hfeUes {
+    height: 120px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+hfeUes .b1 .number {
+    background: rgb(187, 78, 219) none repeat scroll 0% 0%;
+}
+inline @only screen and (max-width:680px){
+.hfeUes .number {
+    display: flex;
+}}
+.hfeUes .number {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-family: "Helvetica Neue LT W05 85 Heavy", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    margin: auto auto 24px;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    display: none;
+}
+inline @only screen and (max-width: 680px){
+.hfeUes .info h3 {
+  text-align: center;
+}}
+.hfeUes .info h3 {
+  font-size: 36px;
+  margin: 0px 0px 12px;
+  font-weight: 400;
+  font-family: "Helvetica Neue LT W05_75 Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
+inline @only screen and (max-width: 680px){
+.hfeUes .info p {
+  text-align: center;
+  margin: auto;
+}}
+.hfeUes .info p {
+  margin: 0px;
+  max-width: 424px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.hfeUes .b2 .number {
+  background: rgb(115, 83, 241) none repeat scroll 0% 0%;
+}
+.hfeUes .b3 .number {
+  background: rgb(78, 218, 219) none repeat scroll 0% 0%;
+}
