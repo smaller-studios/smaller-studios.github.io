@@ -29,7 +29,6 @@ body {
   background-color: #171c28;
   color: white;
   transition: "0.1s";
- 
 }
 /* Media Query */
 @media (max-width: 1380px) {
