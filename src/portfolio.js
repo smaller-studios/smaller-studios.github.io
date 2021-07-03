@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     "The problem is that teams compromise their brands’s potential with subpar Website, either because they don’t have a design, or don’t understand the vast complexities of developing.We believe that the ability to get stunning branded websites should not be reserved for the few, but should be democratized with no barrier to entry."
   ),
-  resumeLink:
-    "",
+  resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +36,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "We Love Your Brand",
-  subTitle: "Specially designed to help your team achieve aesthetic website and branding",
+  subTitle:
+    "Specially designed to help your team achieve aesthetic website and branding",
   skills: [
     emoji(
       "#We have tools that help you and your team all free of charge or you can ask us to do it for you"
@@ -119,18 +119,14 @@ const educationInfo = {
       subHeader: "",
       duration: "",
       desc: "",
-      descBullets: [
-        "",
-        ""
-      ]
+      descBullets: ["", ""]
     },
     {
       schoolName: "",
       logo: require(""),
       subHeader: "",
       duration: "",
-      desc:
-        "",
+      desc: "",
       descBullets: [""]
     }
   ]
@@ -167,28 +163,22 @@ const workExperiences = {
       company: "",
       companylogo: require(""),
       date: "",
-      desc:
-        "",
-      descBullets: [
-        "",
-        ""
-      ]
+      desc: "",
+      descBullets: ["", ""]
     },
     {
       role: "",
       company: "",
       companylogo: require(""),
       date: "",
-      desc:
-        ""
+      desc: ""
     },
     {
       role: "",
       company: "",
       companylogo: require(""),
       date: "",
-      desc:
-        ""
+      desc: ""
     }
   ]
 };
@@ -239,43 +229,36 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji(""),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
       title: "",
-      subtitle:
-        "",
+      subtitle: "",
       image: require(""),
       footerLink: [
         {
           name: "",
-          url:
-            ""
+          url: ""
         },
         {
           name: "",
-          url:
-            ""
+          url: ""
         },
         {
           name: "",
-          url:
-            ""
+          url: ""
         }
       ]
     },
     {
       title: "",
-      subtitle:
-        "",
+      subtitle: "",
       image: require(""),
       footerLink: [
         {
           name: "",
-          url:
-            ""
+          url: ""
         }
       ]
     },
@@ -300,22 +283,18 @@ const achievementSection = {
 
 const blogSection = {
   title: "",
-  subtitle:
-    "",
+  subtitle: "",
 
   blogs: [
     {
-      url:
-        "",
+      url: "",
       title: "",
-      description:
-        ""
+      description: ""
     },
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -325,9 +304,7 @@ const blogSection = {
 
 const talkSection = {
   title: "",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
@@ -347,16 +324,13 @@ const podcastSection = {
   subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji(""),
-  subtitle:
-    "",
+  subtitle: "",
   number: "",
   email_address: ""
 };

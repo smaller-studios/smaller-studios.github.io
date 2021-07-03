@@ -26,8 +26,8 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-        <img src="../../assets/images/smaller.png" alt="" />
-          </a>
+          <img src="../../assets/images/smaller.png" alt="" />
+        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -38,32 +38,32 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {/* {viewSkills && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#skills">Skills</a>
             </li> */}
           {/* )} */}
           {/* {viewExperience && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#experience">Work Experiences</a>
             </li> */}
           {/* )} */}
           {/* {viewOpenSource && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#opensource">Open Source</a>
             </li> */}
           {/* )} */}
           {/* {viewAchievement && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#achievements">Achievements</a>
             </li> */}
           {/* )} */}
           {/* {viewBlog && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#blogs">Blogs</a>
             </li> */}
           {/* )} */}
           {/* {viewTalks && ( */}
-            {/* <li>
+          {/* <li>
               <a href="#talks">Talks</a>
             </li> */}
           {/* )} */}
