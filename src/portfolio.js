@@ -12,7 +12,8 @@ const greeting = {
   username: "Smaller Studios",
   title: "Smaller Studios",
   subTitle: emoji(
-    "Smaller Studios is a team of motivated entrepreneurs, engineers and artists set out to focus on how we can better serve the incredible teams that we work with - That being you."
+    "Smaller Studios is a team of motivated young entrepreneurs, engineers and artists set out to focus on how we can better serve the incredible teams that we work with - That being you."
+
   ),
   // resumeLink:
   //   "",
@@ -22,12 +23,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/S-codes14",
-  linkedin: "https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/",
-  gmail: "smlmnguni14@gmail.com",
-  instagram: "https://www.instagram.com/s.codes14/",
-  facebook: "https://www.facebook.com/sbongumusa.sbongumusa.5/",
-  twitter: "https://twitter.com/s_codes14",
+  github: "https://github.com/smaller-studios",
+  // linkedin: "https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/",
+  gmail: " smallerstudioz@gmail.com",
+  // instagram: "https://www.instagram.com/s.codes14/",
+  facebook: "https://www.facebook.com/Smaller-Studios-101406868766057/",
+  // twitter: "https://twitter.com/s_codes14",q
   // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
   // Instagram and Twitter are also supported in the links!
