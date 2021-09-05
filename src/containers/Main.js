@@ -1,25 +1,14 @@
 import React, {Component} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import Problem from "./problems/problems"
+import Brand from "./brand/brand"
 import Skills from "./skills/Skills";
-// import StackProgress from "./skillProgress/skillProgress";
-// import WorkExperience from "./workExperience/WorkExperience";
-// import Projects from "./projects/Projects";
-// import StartupProject from "./StartupProjects/StartupProject";
-// import Achievement from "./achievement/Achievement";
-// import Blogs from "./blogs/Blogs";
-// import Footer from "../components/footer/Footer";
-// import Talks from "./talks/Talks";
-// import Podcast from "./podcast/Podcast";
-// import Education from "./education/Education";
+import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
-import Hero from "./hero";
-import Steps from "./steps";
-// import Twitter from "./twitter-embed/twitter";
+import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
-// import Profile from "./profile/Profile";
-
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -48,23 +37,21 @@ export default class Main extends Component {
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
           <Header />
-
-          <Hero />
-          {/* <Steps /> */}
           <Greeting />
+          <Problem />
+          <Brand />
           <Skills />
           {/* <StackProgress /> */}
           {/* <Education /> */}
           {/* <WorkExperience /> */}
           {/* <Projects /> */}
-          {/* <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks /> */}
-          {/* <Twitter /> */}
-          {/* <Podcast />
-          <Profile />
-          <Footer /> */}
+          {/* <StartupProject /> */}
+          {/* <Achievement /> */}
+          {/* <Blogs /> */}
+          {/* <Talks /> */}
+          <Twitter />
+          {/* <Profile /> */}
+          <Footer />
           <Top />
         </StyleProvider>
       </div>

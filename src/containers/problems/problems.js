@@ -1,15 +1,15 @@
 import React, {useContext} from "react";
-import "./Skills.css";
+import "../skills/Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 // import codingPerson from "../../assets/lottie/7471-personal";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-import design from "../../assets/images/At the office-pana.svg"
+import design from "../../assets/images/Telecommuting-pana.svg"
 // import ReactReadMoreReadLess from "react-read-more-read-less";
 
-export default function Skills() {
+export default function Problem() {
   const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
@@ -30,7 +30,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              We love problems
             </h1>
             <p
               className={
@@ -39,25 +39,9 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+             The problem is that teams compromise their brands’s potential with subpar Website, either because they don’t have a design, or don’t understand the vast complexities of developing.<br/>We believe that the ability to get stunning branded websites should not be reserved for the few, but should be democratized with no barrier to entry.
             </p>
-            <SoftwareSkill />
-            {/* <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
-            </div> */}
+           
           </div>
         </Fade>
       </div>

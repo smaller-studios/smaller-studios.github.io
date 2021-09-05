@@ -1,20 +1,15 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
-import "./Greeting.css";
+// import emoji from "react-easy-emoji";
+import "../right-text.css";
 // import landingPerson from "../../assets/lottie/64807-geometric-back";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import logo from "../../assets/images/smaller.svg"
-import {greeting} from "../../portfolio";
+import picture from "../../assets/images/Telecommuting-cuate.svg"
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Greeting() {
+export default function Brand() {
   const {isDark} = useContext(StyleContext);
-  if (!greeting.displayGreeting) {
-    return null;
-  }
+  
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -24,9 +19,8 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("")}</span>
+                We love your brand
+                
               </h1>
               <p
                 className={
@@ -35,19 +29,20 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                Specially designed to help your team achieve aesthetic website and branding
+                We have tools that help you and your team all free of charge or you can ask us to do it for you
+
+                We will curate a product line that is perfect for your team
+
+                and we’re so confident that you’ll love it that we do all the design and product selection for free.
               </p>
-              <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact Us" href="mailto:smallerstudioz@gmail.com" />
-                
-              </div>
+             
             </div>
           </div>
           <div className="greeting-image-div">
               <img
                 alt=""
-                src={logo}
+                src={picture}
               ></img>
             
           </div>
