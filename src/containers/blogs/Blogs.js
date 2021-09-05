@@ -11,7 +11,7 @@ export default function Blogs() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="blogs">
+      <div className="main" id="websites">
         <div className="blog-header">
           <h1 className="blog-header-text">{blogSection.title}</h1>
           <p
