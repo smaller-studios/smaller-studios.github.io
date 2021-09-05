@@ -6,7 +6,7 @@ import "./Greeting.css";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-
+import logo from "../../assets/images/smaller.svg"
 import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -46,8 +46,8 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/smaller.svg")}
+                alt=""
+                src={logo}
               ></img>
             
           </div>

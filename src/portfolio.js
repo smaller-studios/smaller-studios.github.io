@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sibongumusa Lungelo",
-  title: "Sibongumusa",
+  username: "Smaller Studios",
+  title: "Smaller Studios",
   subTitle: emoji(
-    "A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins."
+    "Smaller Studios is a team of motivated entrepreneurs, engineers and artists set out to focus on how we can better serve the incredible teams that we work with - That being you."
   ),
   // resumeLink:
   //   "",
