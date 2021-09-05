@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c672287d.chunk.css",
-    "main.js": "/static/js/main.43f60964.chunk.js",
-    "main.js.map": "/static/js/main.43f60964.chunk.js.map",
+    "main.css": "/static/css/main.d109dc02.chunk.css",
+    "main.js": "/static/js/main.4f499b69.chunk.js",
+    "main.js.map": "/static/js/main.4f499b69.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67cee1ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.67cee1ca.js.map",
-    "static/js/2.94d2f11c.chunk.js": "/static/js/2.94d2f11c.chunk.js",
-    "static/js/2.94d2f11c.chunk.js.map": "/static/js/2.94d2f11c.chunk.js.map",
+    "static/js/2.ce035642.chunk.js": "/static/js/2.ce035642.chunk.js",
+    "static/js/2.ce035642.chunk.js.map": "/static/js/2.ce035642.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c672287d.chunk.css.map": "/static/css/main.c672287d.chunk.css.map",
-    "static/js/2.94d2f11c.chunk.js.LICENSE.txt": "/static/js/2.94d2f11c.chunk.js.LICENSE.txt",
+    "static/css/main.d109dc02.chunk.css.map": "/static/css/main.d109dc02.chunk.css.map",
+    "static/js/2.ce035642.chunk.js.LICENSE.txt": "/static/js/2.ce035642.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/At the office-pana.90c62aab.svg": "/static/media/At the office-pana.90c62aab.svg",
+    "static/media/Telecommuting-cuate.c5ef9151.svg": "/static/media/Telecommuting-cuate.c5ef9151.svg",
+    "static/media/Telecommuting-pana.c5aba26f.svg": "/static/media/Telecommuting-pana.c5aba26f.svg",
     "static/media/smaller.56d02ba4.svg": "/static/media/smaller.56d02ba4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.67cee1ca.js",
-    "static/js/2.94d2f11c.chunk.js",
-    "static/css/main.c672287d.chunk.css",
-    "static/js/main.43f60964.chunk.js"
+    "static/js/2.ce035642.chunk.js",
+    "static/css/main.d109dc02.chunk.css",
+    "static/js/main.4f499b69.chunk.js"
   ]
 }
