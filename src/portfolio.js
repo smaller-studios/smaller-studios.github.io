@@ -37,27 +37,10 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ etc."
-    ),
-    emoji(
-      "⚡ Quick to learn new technologies"
-    ),
-    emoji(
-      "⚡ Effective problem solving skills that can be used in the work place"
-    ),
-    emoji(
-      "⚡ other essential/recommended/optional web development skills are: Web page animation, Web development expertise, Web Design, Front-end web languages, Website creation, Web App Development, Website development, Web development technologies."
-    )
-  ],
-
+  title: "We Create",
+  subTitle: "We make websites and tools that help you as well, We have experience in a dozen of technologies,  so if you are super specific we can do it your way.  Our speciality.  Our aim?  To ensure your brand speaks for itself when you leave the room. example of some tech include:",
+  
+    
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -81,26 +64,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "mongodb",
-      fontAwesomeClassname: "fab fa-envira"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true

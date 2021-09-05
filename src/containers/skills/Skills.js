@@ -6,6 +6,7 @@ import {Fade} from "react-reveal";
 // import codingPerson from "../../assets/lottie/7471-personal";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import design from "../../assets/images/At the office-pana.svg"
 // import ReactReadMoreReadLess from "react-read-more-read-less";
 
 export default function Skills() {
@@ -20,7 +21,7 @@ export default function Skills() {
           <div className="skills-image-div">
             <img
                 alt="design"
-                src={require("../../assets/images/design.webp")}
+                src={design}
               ></img>
           </div>
         </Fade>
@@ -41,7 +42,7 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
             <SoftwareSkill />
-            <div>
+            {/* <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
@@ -56,7 +57,7 @@ export default function Skills() {
                   </p>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </Fade>
       </div>
